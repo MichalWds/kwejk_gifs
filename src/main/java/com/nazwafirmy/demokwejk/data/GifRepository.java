@@ -21,7 +21,21 @@ public class GifRepository {
    new Gif("book-dominos","pawlo",true,1)
  );
 
+    public static List<Gif> getFavoritesGifs() {
 
+        List<Gif> favorites = new ArrayList<>();
+
+        for (Gif gif : ALL_GIFS) {
+
+            if (gif.getFavorite()== true) ;
+
+            favorites.add(gif);
+
+        }
+
+        return favorites;
+
+    }
 
  public static List<Gif> getAllGifts(){
      return ALL_GIFS;
