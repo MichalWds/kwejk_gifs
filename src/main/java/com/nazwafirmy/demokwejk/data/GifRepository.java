@@ -16,8 +16,8 @@ public class GifRepository {
                     //obiekt git, rownie dobrze, mzoe byc string lub int lub twoj stary
  public final static List<Gif> ALL_GIFS = Arrays.asList(
    new Gif("infinite-andrew","damian",true,1),
-   new Gif("cowboy-coder","marcin",false,1),
-   new Gif("compiler-bot","karmowski",false,1),
+   new Gif("cowboy-coder","marcin",false,2),
+   new Gif("compiler-bot","karmowski",false,3),
    new Gif("book-dominos","pawlo",true,1)
  );
 
@@ -41,4 +41,14 @@ public class GifRepository {
      return ALL_GIFS;
  }
 
+    public List<Gif> getGifsByCategoryId(int id) {
+        List<Gif>categoryGifs = new ArrayList<>();
+
+        for(Gif value : ALL_GIFS)
+            if (value.getCategoryId()==id){
+                categoryGifs.add(value);
+            }
+
+    return categoryGifs;
+    }
 }
