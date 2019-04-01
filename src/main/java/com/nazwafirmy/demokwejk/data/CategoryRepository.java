@@ -1,6 +1,6 @@
-package com.nazwafirmy.demokwejk.data;
+package com.demokwejk.data;
 
-import com.nazwafirmy.demokwejk.model.Category;
+import com.demokwejk.model.Category;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;

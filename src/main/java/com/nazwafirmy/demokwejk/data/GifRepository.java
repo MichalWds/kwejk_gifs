@@ -1,14 +1,11 @@
-package com.nazwafirmy.demokwejk.data;
+package com.demokwejk.data;
 
-import com.nazwafirmy.demokwejk.model.Gif;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.demokwejk.model.Gif;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-
 
 
 @Component

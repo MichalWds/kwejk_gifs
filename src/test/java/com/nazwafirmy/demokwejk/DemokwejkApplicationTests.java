@@ -1,4 +1,4 @@
-package com.nazwafirmy.demokwejk;
+package com.demokwejk;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

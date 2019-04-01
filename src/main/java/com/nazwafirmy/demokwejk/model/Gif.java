@@ -1,4 +1,4 @@
-package com.nazwafirmy.demokwejk.model;
+package com.demokwejk.model;
 
 public class Gif {
 

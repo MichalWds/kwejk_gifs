@@ -1,4 +1,4 @@
-package com.nazwafirmy.demokwejk;
+package com.demokwejk;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
